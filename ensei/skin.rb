@@ -17,5 +17,6 @@ module Ensei::Skin
 			end
 			html << "'>#{CGI.escapeHTML(data[e.name] or "")}</span>"
 		end
+		return html
 	end
 end

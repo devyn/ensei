@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Ensei Webtop</title>
+	<%= stylesheet_link_tag 'main' %>
+	<%= javascript_include_tag :all %>
+  </head>
+  <body>
+    <div id="desktop"></div>
+    <div id="footbar" onmouseover='footbar.style.opacity = 1.0' onmouseout='footbar.style.opacity = 0.6'><span>
+	  <input id="footbar_url" value="http://" /> <a href="javascript:openService(footbar_url.value)"><img width='24' height='24' src="/images/plus.gif"/></a>
+	</span></div>
+  </body>
+</html>
