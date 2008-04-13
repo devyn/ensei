@@ -33,3 +33,16 @@ function closeWindow(wid) {
 function setTitle(wid, title) {
 	Element.update("title"+ wid, title);
 }
+
+function getIFrameDocument(id) {
+	var oIFrame = document.getElementById(id);
+	var oDoc = oIFrame.contentWindow || oIFrame.contentDocument;
+	if(oDoc.document) { oDoc = oDoc.document };
+	return oDoc;
+}
+
+function moveWindow(id, x, y) {
+	var oWindow = document.getElementById("window" + id);
+	oWindow.style.left = x;
+	oWindow.style.top  = y;
+}

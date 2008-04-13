@@ -8530,3 +8530,648 @@ Processing MainController#clock (for 127.0.0.1 at 2008-04-12 18:02:16) [GET]
   Parameters: {"action"=>"clock", "controller"=>"main"}
 Rendering main/clock
 Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 18:10:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 18:11:29) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.07900 (12 reqs/sec) | Rendering: 0.07900 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 18:31:33) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 18:31:36) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:31:40) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 18:33:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 18:33:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:33:57) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:34:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 18:50:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 18:50:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:50:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:51:07) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:52:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:52:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:53:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:53:34) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:53:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:53:49) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:54:09) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:54:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:54:59) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 18:57:58) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 19:00:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 19:03:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:04:48) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 19:28:01) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 19:28:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:28:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 19:28:22) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:54:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:57:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:58:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 19:58:42) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 20:10:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:10:13) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:10:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:15:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:15:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:16:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:16:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:16:50) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:16:52) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:17:17) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 20:17:26) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 20:21:19) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:21:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:21:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 20:22:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:26:43) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 20:35:14) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 20:35:23) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:35:32) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:35:35) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:40:08) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 20:44:30) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 20:46:18) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 20:46:20) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:46:38) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#terminal (for 127.0.0.1 at 2008-04-12 20:46:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"terminal", "controller"=>"main"}
+Rendering main/terminal
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/terminal]
+
+
+Processing MainController#help (for 127.0.0.1 at 2008-04-12 20:55:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"help", "controller"=>"main"}
+Rendering main/help
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/help]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 21:05:24) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"plink"=>"dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=", "action"=>"index", "controller"=>"main"}
+Rendering main/index
+ERROR: compiling _run_erb_47app47views47main47index46html46erb RAISED compile error
+C:/Documents and Settings/Compaq_Owner/My Documents/DCWareProjects/Ensei/app/views/main/index.html.erb:13: syntax error, unexpected ')', expecting ']'
+	   script = Base64.decode64(params['plink') ; _erbout.concat "\n"
+	                                           ^
+Function body: def _run_erb_47app47views47main47index46html46erb(local_assigns)
+_erbout = ''; _erbout.concat "<html>\n"
+_erbout.concat "  <head>\n"
+_erbout.concat "    <title>Ensei Webtop</title>\n"
+_erbout.concat "\t"; _erbout.concat(( stylesheet_link_tag 'main' ).to_s); _erbout.concat "\n"
+_erbout.concat "\t"; _erbout.concat(( javascript_include_tag :all ).to_s); _erbout.concat "\n"
+_erbout.concat "  </head>\n"
+_erbout.concat "  <body>\n"
+_erbout.concat "    <div id=\"desktop\"></div>\n"
+_erbout.concat "    <div id=\"footbar\" onmouseover='getElementById(\"footbar\").style.opacity = 1.0' onmouseout='getElementById(\"footbar\").style.opacity = 0.6'><span>\n"
+_erbout.concat "\t  <input id=\"footbar_url\" value=\"http://\" /> <a href='#' onclick='openService(document.getElementById(\"footbar_url\").value, \"window\");document.getElementById(\"footbar_url\").value = \"http://\"'>"; _erbout.concat(( image_tag 'plus.gif' ).to_s); _erbout.concat "</a> <a href='#' onclick='openService(\""; _erbout.concat(( url_for :action => "menu" ).to_s); _erbout.concat "\", \"Menu\")'>"; _erbout.concat(( image_tag 'menu.gif' ).to_s); _erbout.concat "</a>\n"
+_erbout.concat "\t</span></div>\n"
+_erbout.concat "\t";  if params['plink']
+	   script = Base64.decode64(params['plink') ; _erbout.concat "\n"
+_erbout.concat "\t   <script>"; _erbout.concat(( script ).to_s); _erbout.concat "</script>\n"
+_erbout.concat "\t";  end ; _erbout.concat "\n"
+_erbout.concat "  </body>\n"
+_erbout.concat "</html>"; _erbout
+end
+Backtrace: C:/Documents and Settings/Compaq_Owner/My Documents/DCWareProjects/Ensei/app/views/main/index.html.erb:18:in `compile_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+c:/ruby/lib/ruby/gems/1.8/gems/haml-1.8.2/lib/sass/plugin/rails.rb:19:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+script/server:3
+
+
+ActionView::TemplateError (compile error
+C:/Documents and Settings/Compaq_Owner/My Documents/DCWareProjects/Ensei/app/views/main/index.html.erb:13: syntax error, unexpected ')', expecting ']'
+	   script = Base64.decode64(params['plink') ; _erbout.concat "\n"
+	                                           ^) on line #13 of main/index.html.erb:
+10: 	  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a>
+11: 	</span></div>
+12: 	<% if params['plink']
+13: 	   script = Base64.decode64(params['plink') %>
+14: 	   <script><%= script %></script>
+15: 	<% end %>
+16:   </body>
+
+    app/views/main/index.html.erb:18:in `compile_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:630:in `compile_and_render_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:365:in `render_template'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_view/base.rb:316:in `render_file'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1100:in `render_for_file'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:836:in `render_with_no_layout'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/layout.rb:270:in `render_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:51:in `render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1153:in `default_render'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:1159:in `perform_action_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:697:in `call_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:689:in `perform_action_without_benchmark'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/rescue.rb:199:in `perform_action_without_caching'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:678:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.0.2/lib/active_record/query_cache.rb:8:in `cache'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/caching.rb:677:in `perform_action'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `send'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/filters.rb:685:in `process_without_session_management_support'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/session_management.rb:123:in `sass_old_process'
+    c:/ruby/lib/ruby/gems/1.8/gems/haml-1.8.2/lib/sass/plugin/rails.rb:19:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/base.rb:388:in `process'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:171:in `handle_request'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:112:in `handle_dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:78:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    c:/ruby/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    c:/ruby/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/webrick_server.rb:62:in `dispatch'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/servers/webrick.rb:66
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:342:in `new_constants_in'
+    c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.0.2/lib/active_support/dependencies.rb:496:in `require'
+    c:/ruby/lib/ruby/gems/1.8/gems/rails-2.0.2/lib/commands/server.rb:39
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 21:05:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"plink"=>"dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=", "action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.01600 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/?plink=dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 21:05:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 21:05:56) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 21:06:45) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"plink"=>"dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=", "action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/?plink=dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 21:06:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 21:06:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.01500 (66 reqs/sec) | Rendering: 0.01500 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#index (for 127.0.0.1 at 2008-04-12 21:07:04) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"plink"=>"dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=", "action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.01600 (62 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/?plink=dmFyIHdpZD1uZXdXaW5kb3coJ0Nsb2NrJywgJy9tYWluL2Nsb2NrJyk7cmVmcmVzaFdpbmRvdyh3aWQsICcvbWFpbi9jbG9jaycpO21vdmVXaW5kb3cod2lkLCA4MzAsIDMxKTtkZWxldGUgd2lkO3ZhciB3aWQ9bmV3V2luZG93KCdNZW51JywgJy9tYWluL21lbnUnKTtyZWZyZXNoV2luZG93KHdpZCwgJy9tYWluL21lbnUnKTttb3ZlV2luZG93KHdpZCwgODMwLCA4Myk7ZGVsZXRlIHdpZDs=]
+
+
+Processing MainController#menu (for 127.0.0.1 at 2008-04-12 21:07:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"menu", "controller"=>"main"}
+Rendering main/menu
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/menu]
+
+
+Processing MainController#clock (for 127.0.0.1 at 2008-04-12 21:07:05) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYTJhYTdlODQ1NTBiY2VjMjVjNjQxMDY4ODFmZTkx%0AZmYiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh%0Ac2h7AAY6CkB1c2VkewA%3D--8dba508932dd195085807acf0c427e22c1d1b0ca
+  Parameters: {"action"=>"clock", "controller"=>"main"}
+Rendering main/clock
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/main/clock]

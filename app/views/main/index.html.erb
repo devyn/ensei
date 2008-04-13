@@ -9,5 +9,9 @@
     <div id="footbar" onmouseover='getElementById("footbar").style.opacity = 1.0' onmouseout='getElementById("footbar").style.opacity = 0.6'><span>
 	  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a>
 	</span></div>
+	<% if params['plink']
+	   script = Base64.decode64(params['plink']) %>
+	   <script><%= script %></script>
+	<% end %>
   </body>
 </html>

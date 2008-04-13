@@ -8,4 +8,5 @@ class MainController < ApplicationController
 	def clock; end
 	def help; end
 	def menu; end
+	def terminal; end
 end
