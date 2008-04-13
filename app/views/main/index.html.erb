@@ -6,8 +6,8 @@
   </head>
   <body>
     <div id="desktop"></div>
-    <div id="footbar" onmouseover='footbar.style.opacity = 1.0' onmouseout='footbar.style.opacity = 0.6'><span>
-	  <input id="footbar_url" value="http://" /> <a href="javascript:openService(footbar_url.value)"><img width='24' height='24' src="/images/plus.gif"/></a>
+    <div id="footbar" onmouseover='getElementById("footbar").style.opacity = 1.0' onmouseout='getElementById("footbar").style.opacity = 0.6'><span>
+	  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a>
 	</span></div>
   </body>
 </html>

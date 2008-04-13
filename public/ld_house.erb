@@ -1,0 +1,11 @@
+<%
+  # Ensei RSS Reader for http://linuxdevil.wordpress.com/
+  rsslocation = "http://linuxdevil.wordpress.com/feed"
+%>
+
+<% rss = RSS::Parser.parse(Net::HTTP.get(URI.parse(rsslocation)), false) %>
+<% i = rss.items[0] %>
+
+<strong>Latest from <a href="<%= rss.channel.link %>"><%= CGI.escapeHTML(rss.channel.title) %></a>: <%= i.title %></strong><br/>
+
+<%= i.description %>

@@ -5,6 +5,14 @@ body {
   font-family: Verdana;
 }
 
+a, a:visited {
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
 /* thanks to wiki.script.aculo.us/stylesheets/script.aculo.us.css for this */
 #footbar {
   position: fixed;
@@ -37,18 +45,45 @@ body {
 }
 
 .window .titlebar {
-  background-color: darkgreen;
-  color: white;
+  background-color: yellow;
+  color: black;
   font-size: 14pt;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
 }
 
-.window .titlebar .closeButton {
+.window .refreshButton {
+  background-color: green;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14pt;
+  border-top: 2px solid black;
+}
+
+.window .closeButton {
   background-color: red;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 14pt;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.window .renameButton {
+  background-color: blue;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14pt;
+  border-top: 2px solid black;
 }
 
 .window .content {
   background-color: white;
   color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 400px;
+  border: 2px solid black;
 }
