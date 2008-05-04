@@ -1,0 +1,17 @@
+<!-- an Ensei snippet -->
+<script>
+	document.managerSw = function(app) {
+		$('managerData').replace("");
+		$('managerApplications').insert("<td id=\"managerData\"></td>", {position:'after'});
+		DFS.app(app).allData().each(function(i){
+			$('managerData').insert(i + "<br/>"); // TODO: Add actions to do with the data.
+		});
+	}
+	DFS.allApps().each(function(i){
+		$('managerApplications').insert('<a href="#" onclick="document.managerSw(\'' + i + '\');">' + i + '</a><br/>', {position:'bottom'});
+	});
+</script>
+<table style="color:black"><tr>
+	<td id="managerApplications"></td>
+	<td id="managerData">&nbsp;</td>
+</tr></table>

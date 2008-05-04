@@ -5,13 +5,15 @@
 	<%= javascript_include_tag :all %>
   </head>
   <body>
-    <div id="desktop"></div>
-    <div id="footbar" onmouseover='getElementById("footbar").style.opacity = 1.0' onmouseout='getElementById("footbar").style.opacity = 0.6'><span>
-	  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a>
-	</span></div>
-	<% if params['plink']
-	   script = Base64.decode64(params['plink']) %>
-	   <script><%= script %></script>
-	<% end %>
+	<div id="loginPart" style="display:inline;position:absolute;width:100%;height:100%;left:0px;top:0px;background-color:black;opacity:0.7;text-align:center"><div style="position:absolute;left:33%;top:33%;width:33%;height:33%;width:33%;background-color:green;">
+		<%= image_tag 'ensei.png' %><br/>
+		<table><tr><td><strong>Username:</strong></td><td><input id="username"/></td></tr><tr><td><strong>Password:</strong></td><td><input id="password" type="password"/></td></tr><tr><td><button class="enseiButton" id="loginButton" onClick="processLogin();">Login</button></td><td><button class="enseiButton" id="signupButton" onClick="processSignup();">Sign up</button></td></tr></table>
+	</div></div>
+	<div id="desktopPart" style="display:none">
+	    <div id="desktop"></div>
+	    <div id="footbar" onmouseover='getElementById("footbar").style.opacity = 1.0' onmouseout='getElementById("footbar").style.opacity = 0.6'><span>
+		  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a> <a href='#' onclick='logout()'><%= image_tag 'logout.gif' %></a>
+		</span></div>
+	</div>
   </body>
 </html>

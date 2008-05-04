@@ -87,3 +87,7 @@ a:hover {
   max-width: 400px;
   border: 2px solid black;
 }
+
+button.enseiButton, input.enseiButton {
+  background-color: cyan;
+}
