@@ -2,16 +2,18 @@
 <script>
 	document.managerSw = function(app) {
 		$('managerData').replace("");
-		$('managerApplications').insert("<td id=\"managerData\"></td>", {position:'after'});
+		$('managerApplications').insert("<div id=\"managerData\"></div>", {position:'after'});
 		DFS.app(app).allData().each(function(i){
-			$('managerData').insert(i + "<br/>"); // TODO: Add actions to do with the data.
+			$('managerData').insert(i + " <a href='#' onclick='document.managerEdit(\""+app+"\", \""+i+"\");'>edit</a><br/>"); // TODO: Add more actions to do with the data.
 		});
-	}
+	};
+	document.managerEdit = function(app, item) {
+		var wid = newWindow("Editing JSON: " + app + "." + item);
+		setContent(wid, "<" + "script" + ">$('managerJSON').value = DFS.app(\""+app+"\").getSector(\""+item+"\").toJSON();<"+"/"+"script"+"><input id='managerJSON' style='width:300px;'/> <a href='#' onclick='DFS.app(\""+app+"\").setSector(\""+item+"\", $(\"managerJSON\").value);closeWindow("+wid+");'>save</a>");
+	};
 	DFS.allApps().each(function(i){
 		$('managerApplications').insert('<a href="#" onclick="document.managerSw(\'' + i + '\');">' + i + '</a><br/>', {position:'bottom'});
 	});
 </script>
-<table style="color:black"><tr>
-	<td id="managerApplications"></td>
-	<td id="managerData">&nbsp;</td>
-</tr></table>
+<div id="managerApplications"></div>
+<div id="managerData">&nbsp;</div>

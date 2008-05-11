@@ -12,7 +12,7 @@ function openService(uri, title) {
 
 function newWindow(title, refreshURI) {
 	var wid = Math.round((Math.random() * 1000000000));
-	new Insertion.Top('desktop', "<div class='window' id='window" + wid + "'><span class='titlebar' id='title" + wid + "'>" + title + "</span><span class='refreshButton' onclick='refreshWindow("+wid+", \""+refreshURI+"\")'>R</span><span class='renameButton' onclick='setTitle("+wid+", prompt(\"rename to?\"))'>T</span><span class='closeButton' onclick='closeWindow(" + wid + ")'>X</span><div class='content' id='content" + wid + "'></div></div>");
+	new Insertion.Bottom('desktop', "<div onmouseover='focusWindow("+wid+");' onmouseout='unFocusWindow("+wid+");' class='window' id='window" + wid + "'><span ondblclick='Effect.toggle(\"content"+wid+"\", \"blind\");' class='titlebar' id='title" + wid + "'>" + title + "</span><span class='refreshButton' onclick='refreshWindow("+wid+", \""+refreshURI+"\")'>R</span><span class='renameButton' onclick='setTitle("+wid+", prompt(\"rename to?\"))'>T</span><span class='closeButton' onclick='closeWindow(" + wid + ")'>X</span><div class='content' id='content" + wid + "'></div></div>");
 	new Draggable('window' + wid, {handle:'title'+wid});
 	document.windows.set(''+wid+'', [refreshURI, title]);
 	return wid;
@@ -54,16 +54,26 @@ function moveWindow(id, x, y) {
 	var oWindow = document.getElementById("window" + id);
 	oWindow.style.left = x;
 	oWindow.style.top  = y;
+	return id;
 }
 
 function fetchWins() {
 	var windows = new Array();
 	document.windows.keys().each(function(k){
 		var v = document.windows.get(k);
-		windows = windows.concat([v.concat(document.getElementById('window' + k).style.left, document.getElementById('window' + k).style.top)]);
+		var isShaded = ($('content' + k).style.display == 'none');
+		windows = windows.concat([v.concat(document.getElementById('window' + k).style.left, document.getElementById('window' + k).style.top, isShaded)]);
 	});
 	return windows;
 }
+
+function setShade(id, val) {
+	if(val) {
+		$("content" + id).style.display = 'none';
+	} else {
+		$("content" + id).style.display = 'block';
+	}
+}	
 
 function persistentWindowsSave() {
 	DFS.app("ensei").sendSector("persistent", fetchWins());
@@ -73,7 +83,7 @@ function persistentWindowsLoad() {
 	var x = DFS.app("ensei").getSector("persistent");
 	if(x) {
 		x.each(function(i) {
-			if(i) moveWindow(openService(i[0], i[1]), i[2], i[3]);
+			if(i) setShade(moveWindow(openService(i[0], i[1]), i[2], i[3]), i[4]);
 		});
 	}
 }
@@ -103,4 +113,20 @@ function logout() {
 	persistentWindowsSave();
 	DFS.logout();
 	window.location.reload(true);
+}
+
+function focusWindow(wid) {
+	$('window' + wid).style.zIndex = 1;
+}
+
+function unFocusWindow(wid) {
+	$('window' + wid).style.zIndex = 0;
+}
+
+function reshTransport(server, script) {
+	var retItem;
+	var request = new Ajax.Request(server, {asynchronous:false, method:'get',parameters:{script:script}, onSuccess:function(t) {
+		retItem = t.headerJSON;
+	}});
+	return retItem;
 }

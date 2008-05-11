@@ -3,4 +3,5 @@
 <a href='#' onclick='openService("<%= url_for :action => :help %>", "Help")'>Help</a><br/>
 <a href='#' onclick='openService("<%= url_for :action => :terminal %>", "Terminal")'>Terminal</a><br/>
 <a href='#' onclick='openService("<%= url_for :action => :manager, :controller => :DFS %>", "DFS Manager")'>DFS Manager</a><br/>
+<a href='#' onclick='openService("<%= url_for :action => :rssLoader %>?uri=" + escape(prompt("Feed to read?")), "RSS Reader")'>RSS Reader</a><br/>
 <!-- end menu --><br/>
