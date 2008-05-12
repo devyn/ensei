@@ -1,3 +1,0 @@
-<textarea style="width:400px;height:200px;background-color:black;font-family:monospace;color:white;" id="jsConsole" disabled="true"></textarea><br/><br/>
-<input style="width:300px" id="jsConsoleInput"/>&nbsp;&nbsp;&nbsp;
-<button class="enseiButton" onclick="var t = reshTransport('<%= url_for :action => "terminal", :format => "js" %>', $('jsConsoleInput').value);$('jsConsole').innerHTML += '>> ' + $('jsConsoleInput').value + '\n=> ' + Object.inspect(t) + '\n';$('jsConsoleInput').value = '';">Evaluate</button><br/><br/>

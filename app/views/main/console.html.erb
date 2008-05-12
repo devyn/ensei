@@ -1,0 +1,3 @@
+<textarea style="width:400px;height:200px;background-color:black;font-family:monospace;color:white;" id="jsConsole"></textarea><br/><br/>
+<input style="width:300px" id="jsConsoleInput"/>&nbsp;&nbsp;&nbsp;
+<button class='enseiButton' onclick='document.getElementById("jsConsole").value += ">> " + document.getElementById("jsConsoleInput").value + "\n=> " + Object.inspect(eval(document.getElementById("jsConsoleInput").value)) + "\n"; document.getElementById("jsConsoleInput").value = "";'>Evaluate</button><br/><br/>

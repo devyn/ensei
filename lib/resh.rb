@@ -105,6 +105,7 @@ module Resh
 			@des = descriptor
 		end
 		def execute(tokens)
+			tokens = Resh::InputTokens.new(tokens) if tokens.class >= String
 			last_pipe_data = []
 			for segment in tokens
 				for pipe_part in segment

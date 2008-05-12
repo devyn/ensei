@@ -8,22 +8,26 @@ class MainController < ApplicationController
 	end
 	def clock; end
 	def help; end
+	def reshHelp; end
 	def menu; end
-	def terminal
+	def reshTerminal
 		if params[:format] == "js"
-			# right now pretty pointless.
 			require 'resh'
 			exe = Resh::Executor.new
 			%w[openService newWindow refreshWindow setContent getContent closeWindow setTitle getIFrameDocument moveWindow fetchWins setShade persistentWindowsSave persistentWindowsLoad processLogin processSignup logout focusWindow unFocusWindow reshTransport].each do |i|
 				exe.des.define(i) {|pipedata,arguments|
-					i << "(" << process_args(arguments).collect{|i|'"' << i.gsub('"', '\"') << '"'}.join(", ") << ");"
+					i << "(" << (pipedata.collect{|i| i.sub(/;$/, "")} + process_args(arguments).collect{|i|'"' << i.gsub('"', '\"') << '"'}).join(", ") << ");"
 				}
+			end
+			exe.des.define :help do |pipedata, arguments|
+				"openService('/main/reshHelp?lookup=#{CGI.escape(arguments)}', 'Resh Help');"
 			end
 			obj = exe.execute(params[:script])
 			headers['X-JSON'] = obj.to_json
 			render :text => obj.join("\n")
 		end
 	end
+	def console; end
 	
 private
 	def choose_content_type

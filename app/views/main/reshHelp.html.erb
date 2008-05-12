@@ -1,0 +1,63 @@
+<!-- warning: documentation not complete! -->
+<% case (params[:lookup] or '').downcase
+   when 'openservice'             %>
+<strong>SYNOPSIS</strong><br/>
+<em>openService</em> &lt;uri&gt; &lt;title&gt; <em>=&gt; Window ID</em><br/>
+<strong>DESCRIPTION</strong><br/>
+Opens an Ensei HTML snippet.<br/>
+<strong>PARAMETERS</strong><br/>
+<em>uri:</em> The URI that the snippet is located at.<br/>
+<em>title:</em> The text in the titlebar of the new window.<br/>
+<% when 'newwindow' %>
+<strong>SYNOPSIS</strong><br/>
+<em>newWindow</em> &lt;title&gt; &lt;refreshURI&gt; <em>=&gt; Window ID</em><br/>
+<strong>DESCRIPTION</strong><br/>
+Creates a new window.
+<strong>PARAMETERS</strong><br/>
+<em>title:</em> The text in the titlebar of the new window.<br/>
+<em>refreshURI:</em> The URI that the snippet is located at. (optional)<br/>
+<% when 'refreshwindow' %>
+<strong>SYNOPSIS</strong><br/>
+<em>refreshWindow</em> &lt;wid&gt; &lt;refreshURI&gt;<br/>
+<strong>PARAMETERS</strong><br/>
+<em>wid:</em> The ID of the window you wish to refresh.<br/>
+<em>refreshURI:</em> The URI that the snippet is located at.<br/>
+<% when 'setcontent' %>
+<% when 'getcontent' %>
+<% when 'closewindow' %>
+<% when 'settitle' %>
+<% when 'getiframedocument' %>
+Used internally.
+<% when 'movewindow' %>
+<% when 'fetchwins' %>
+<% when 'setshade' %>
+<% when 'persistentwindowssave' %>
+<% when 'persistentwindowsload' %>
+<% when 'processlogin' %>
+Used internally.
+<% when 'processsignup' %>
+Used internally.
+<% when 'logout' %>
+<% when 'focuswindow' %>
+Used internally.
+<% when 'unfocuswindow' %>
+Used internally.
+<% when 'reshtransport' %>
+<% else %>
+<strong>Resh:</strong> the <em>safest</em> way to do Ruby.<br/>
+Resh is a pipe-based language developed for Ensei to do advanced client-server communications.<br/><br/>
+<strong>Syntax</strong><br/>
+The syntax is very simple. For example, to put in a new window and move it to [290,290] use:<br/>
+<code>newWindow hello "" | moveWindow 290 290</code><br/>
+This generates the JavaScript code:<br/>
+<code>moveWindow(newWindow("hello", ""), "290", "290");</code><br/>
+See, things just make sense. You can even use the &amp; operator to join functions.<br/><br/>
+<strong>Command List</strong> (applies to JavaScript interface too)<br/>
+<% %w[openService newWindow refreshWindow setContent getContent closeWindow setTitle getIFrameDocument moveWindow fetchWins setShade persistentWindowsSave persistentWindowsLoad processLogin processSignup logout focusWindow unFocusWindow reshTransport].each_with_index do |i,ind| %>
+<% if ind.even? %>
+<a href="#" onclick="openService('<%= url_for :action => :reshHelp, :lookup => i %>', 'Resh Help: <%= i %>');" style="color:blue;text-decoration:underline"><%= i %></span>
+<% else %>
+<a href="#" style="color:red;text-decoration:underline"><%= i %></span>
+<% end %>
+<% end %>
+<% end %>

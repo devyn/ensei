@@ -125,7 +125,7 @@ function unFocusWindow(wid) {
 
 function reshTransport(server, script) {
 	var retItem;
-	var request = new Ajax.Request(server, {asynchronous:false, method:'get',parameters:{script:script}, onSuccess:function(t) {
+	var request = new Ajax.Request(server, {asynchronous:false, method:'get',parameters:{script:script,token:DFS.token}, onSuccess:function(t) {
 		retItem = t.headerJSON;
 	}});
 	return retItem;
