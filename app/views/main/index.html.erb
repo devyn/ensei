@@ -1,7 +1,8 @@
+<% themes = ["main", "red"] %>
 <html>
   <head>
     <title>Ensei Webtop</title>
-	<%= stylesheet_link_tag (params['theme'] or "main") %>
+	<%= stylesheet_link_tag (params['theme'] or themes.first), :id => "theme" %>
 	<%= javascript_include_tag :all %>
   </head>
   <body>
@@ -12,7 +13,7 @@
 	<div id="desktopPart" style="display:none">
 	    <div id="desktop"></div>
 	    <div id="footbar" onmouseover='getElementById("footbar").style.opacity = 1.0' onmouseout='getElementById("footbar").style.opacity = 0.6'><span>
-		  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a> <a href='#' onclick='logout()'><%= image_tag 'logout.gif' %></a>
+		  <input id="footbar_url" value="http://" /> <a href='#' onclick='openService(document.getElementById("footbar_url").value, "window");document.getElementById("footbar_url").value = "http://"'><%= image_tag 'plus.gif' %></a> <a href='#' onclick='openService("<%= url_for :action => "menu" %>", "Menu")'><%= image_tag 'menu.gif' %></a> <a href='#' onclick='logout()'><%= image_tag 'logout.gif' %></a> Theme: <% themes.each do |i| %><a href="#" onclick="$('theme').href = '<%= path_to_stylesheet i %>';"><%= i %></a> <% end %>
 		</span></div>
 	</div>
   </body>
