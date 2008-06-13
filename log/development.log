@@ -4608,3 +4608,5 @@ Processing MainController#index (for 127.0.0.1 at 2008-05-11 20:36:29) [GET]
   Parameters: {"theme"=>"red", "action"=>"index", "controller"=>"main"}
 Rendering main/index
 Completed in 0.34400 (2 reqs/sec) | Rendering: 0.31200 (90%) | DB: 0.00000 (0%) | 200 OK [http://localhost/?theme=red]
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
+DEPRECATION WARNING: config.action_view.cache_template_extensions option has been deprecated and has no affect. Please remove it from your config files.  See http://www.rubyonrails.org/deprecation for details. (called from send at /usr/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/initializer.rb:455)
