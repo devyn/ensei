@@ -1,0 +1,17 @@
+<html>
+<head>
+<title><%=@user.name%>'s listing of <%=@path%></title>
+</head>
+<body>
+<h1><%=@path%></h1>
+<% unless dir =~ %r"^/ *$" %>
+<%= link_to 'Parent Directory', :path => File.dirname(@path) %><br/>
+<% end %>
+<% @things.each do |thing| %>
+<% if thing =~ %r"/$" %>
+<%= link_to thing, :path => File.join(@path, thing) %><br/>
+<% else %>
+<%= link_to thing, :action => 'show' %>&nbsp;&nbsp;<small><%= @z3.metadata(File.join(@path, thing))[:type]+", " rescue nil %><%= @z3.about(File.join(@path, thing)).sub("#{thing}: ", "") %><br/>
+<% end %>
+</body>
+</html>

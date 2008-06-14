@@ -24,6 +24,7 @@ class DfsController < ApplicationController
 						u.name = params[:username]
 						u.pass = Base64.encode64(Digest::SHA256.digest(params[:password]))
 						u.data = {}
+						Userspace.new(:user_id => u.id).save
 						u.save
 						render :text => ""
 					else
