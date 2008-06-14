@@ -28,7 +28,7 @@ function setContent(wid, content) {
 }
 
 function getContent(wid) {
-	return document.getElementById(""+wid+"").innerHTML;
+	return $(""+wid+"").innerHTML;
 }
 
 function closeWindow(wid) {
@@ -43,15 +43,8 @@ function setTitle(wid, title) {
 	document.windows.set(''+wid+'', x);
 }
 
-function getIFrameDocument(id) {
-	var oIFrame = document.getElementById(id);
-	var oDoc = oIFrame.contentWindow || oIFrame.contentDocument;
-	if(oDoc.document) { oDoc = oDoc.document };
-	return oDoc;
-}
-
 function moveWindow(id, x, y) {
-	var oWindow = document.getElementById("window" + id);
+	var oWindow = $("window" + id);
 	oWindow.style.left = x;
 	oWindow.style.top  = y;
 	return id;
@@ -62,7 +55,7 @@ function fetchWins() {
 	document.windows.keys().each(function(k){
 		var v = document.windows.get(k);
 		var isShaded = ($('content' + k).style.display == 'none');
-		windows = windows.concat([v.concat(document.getElementById('window' + k).style.left, document.getElementById('window' + k).style.top, isShaded)]);
+		windows = windows.concat([v.concat($('window' + k).style.left, $('window' + k).style.top, isShaded)]);
 	});
 	return windows;
 }
