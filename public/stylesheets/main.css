@@ -2,7 +2,7 @@ body {
   background-image: url(/images/background_blue.gif);
   background-color: darkblue;
   color: white;
-  font-family: Verdana;
+  font-family: Verdana, sans-serif;
 }
 
 a, a:visited {
