@@ -13,7 +13,6 @@ a:hover {
   color: orange;
 }
 
-/* thanks to wiki.script.aculo.us/stylesheets/script.aculo.us.css for this */
 #footbar {
   position: fixed;
   border-top: 2px solid black;
@@ -38,6 +37,10 @@ a:hover {
 
 #footbar input {
   width: 300px;
+}
+
+#footbar a {
+    color: yellow;
 }
 
 .window {
