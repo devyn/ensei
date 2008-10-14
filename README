@@ -1,5 +1,6 @@
 =============== Ensei ===============
 == a webtop entirely in ruby/rails ==
+Copyright (C) 2008 Devyn Cairns.
 
 1. What's a webtop?
 It's basically a desktop on the internet. That's Ensei's goal.
